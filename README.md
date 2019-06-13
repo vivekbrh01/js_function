@@ -29,6 +29,7 @@ The aim of the exercise is to get started with Function
 * [ ] Every folder has a `.md` file and a `.js` file
 * [ ] Go through the instruction form `.md` file and complete the function in the `.js` file.
 
+![Function Terms](./assets/function.jpg)
 ## Concepts & Resources ℹ️
 
 1. [Functions](http://javascript.info/function-basics)
