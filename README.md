@@ -1,10 +1,11 @@
 # Function In JavaScript
 
 The aim of the exercise is to get started with Function
-* [ ] Functions
-* [ ] Types of function (Function Declaration and Function Expression)
-* [ ] Parameter
-* [ ] Arrow Function
+* [ ] Function Decleration
+* [ ] Function Expression
+    * [ ] Arrow Function
+* [ ] Function Invocation
+* [ ] IIFE
 
 ## Getting Started
 
@@ -29,7 +30,57 @@ The aim of the exercise is to get started with Function
 * [ ] Every folder has a `.md` file and a `.js` file
 * [ ] Go through the instruction form `.md` file and complete the function in the `.js` file.
 
-![Function Terms](./assets/function.jpg)
+## Basic Info 🛠
+
+###  What is a function
+  1. A function is a subprogram designed to perform a particular task.
+  2. Functions are executed when they are called. This is known as invoking a function.
+  3. Values can be passed into functions and used within the function.
+  4. Functions always return a value. In JavaScript, if no return value is specified, the function will return  `undefined`.
+  5. Functions are objects.
+
+### Defining a function
+
+A `Function Declaration` defines a named function. To create a function declaration you use the `function` keyword followed by the name of the function. When using function declarations, the function definition is hoisted, thus allowing the function to be used before it is defined.
+
+```js
+function add(a, b){
+  return a + b;
+}
+```
+
+A `Function Expressions` defines a named or anonymous function. An anonymous function is a function that has no name. Function Expressions are not hoisted, and therefore cannot be used before they are defined.
+
+```js
+let add = function(a, b){
+  return a + b;
+}
+```
+
+An `Arrow Function Expression` is a shorter syntax for writing function expressions. Arrow functions do not create their own this value.
+
+```js
+let add = (a, b) => {
+  return a + b;
+}
+```
+
+### Function Terms ⚡️
+
+![@wesbos](./assets/function.jpg)
+
+
+## Invoking a Function
+
+Functions execute when the function is called. This process is known as invocation. You can invoke a function by referencing the function name, followed by an open and closed parenthesis: `()`
+
+```js
+let add = (a, b) => {
+  return a + b;
+}
+add();
+```
+
 ## Concepts & Resources ℹ️
 
 1. [Functions](http://javascript.info/function-basics)
