@@ -90,3 +90,14 @@ Is there any difference in the behavior of these two variants? If there is what 
 ```js
 // your code goes here
 ```
+
+8. 🎖Write a function `min` that takes two arguments and returns their minimum.
+
+```js
+// Your code here.
+
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
+```
