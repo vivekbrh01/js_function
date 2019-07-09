@@ -1,6 +1,6 @@
 1. 🎖 Go through this resource [Coding Style](http://javascript.info/coding-style)
 
-After going through the anove resource convert the code below to the proper code style structure.
+After going through the above resource convert the code below to the proper code style structure.
 ```js
 function pow(x,n)
 {
